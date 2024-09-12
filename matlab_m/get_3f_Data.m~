@@ -1,0 +1,28 @@
+clear;
+clc;
+
+
+path = dir('/Users/yymacpro13/Desktop/VRB_cine_sr/data/train');
+
+
+for j=1:127
+    data_name = path(j+3).name;
+
+    GT = load(strcat('/Users/yymacpro13/Desktop/VRB_cine_sr/data/train/',num2str(data_name),'')).GT; 
+
+    data_abs_gt = abs(GT);
+    HR = uint8(255*abs(data_abs_gt)/max(abs(data_abs_gt(:))));
+    %%%%%%%%%%%%%%% preparing LR2
+    gt_ks=fft2c(GT);
+    lr2_ks = gt_ks(64:191,64:191,:);
+    lr2 = ifft2c(lr2_ks);
+    lr2 = abs(lr2);
+    LR2 = uint8(255*abs(lr2)/max(abs(lr2(:))));
+    %%%%%%%%%%%%%%% preparing LR4
+    lr4_ks = lr2_ks(32:95,32:95,:);
+    lr4 = ifft2c(lr4_ks);
+    lr4 = abs(lr4);
+    LR4 = uint8(255*abs(lr4)/max(abs(lr4(:))));
+
+    
+end

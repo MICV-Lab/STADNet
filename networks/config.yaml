@@ -1,0 +1,8 @@
+#model settings
+in_channels: 120                           #number of channels in residual blocks
+width: 32                                  #width of input video/frame
+height: 32                                 #height of input video/frame
+encoder_nblocks: 5                         #number of residual blocks in the encoder
+decoder_nblocks: 20                        #number of residual blocks in the decoder
+window_size: 4           #  8
+upscale: 4
