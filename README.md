@@ -2,14 +2,17 @@
 ![alt](https://github.com/MICV-Lab/STADNet/blob/main/Framework.png "Framework")
 
 
-
 The overall architecture of the proposed STADNet network, which consists of two branches, the location-aware spatial path, and the motion-aware temporal path. The location-aware spatial path employs the information of neighboring frames to enhance the spatial details of the current frame. The motion-aware temporal path utilizes an optical flow-based strategy to exploit the correlation between cine MR frames and extract the motion information of the cardiac. We introduce a sliding-window mechanism with a window size of 3 and a stride of 1. Thus, the network’s input is three consecutive frames, 𝑡 − 1, 𝑡, 𝑡 + 1
 
 
-
 ### Data Description
-One in-house private dataset: SAX, and one public dataset: ACDC are utilized in our experiments. All studies have been approved by the local Institutional Review Board (IRB) for the private data. The IRB asked us to protect the privacy of participants and to maintain the confidentiality of data. Since we cannot make the  datasets publicly available, we won't claim them as our contribution. 
+Our experiments utilize one in-house private dataset: SAX, and one public dataset: ACDC. All studies have been approved by the local Institutional Review Board (IRB) for the private data. The IRB asked us to protect the privacy of participants and to maintain the confidentiality of data. So we cannot make the private dataset publicly available. 
 
+### Installation
+```bash
+git clone https://github.com/MICV-Lab/STADNet.git
+```
+All experiments in our paper were conducted on the NVIDIA Tesla A100 GPU with an identical experimental setting.
 
 ### Environment and Dependencies
 Requirements:
