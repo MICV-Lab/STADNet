@@ -1,5 +1,6 @@
-
-
+<p align="center"> 
+# STADNet: Spatial-Temporal Attention-Guided Dual-Path Network for cardiac cine MRI super-resolution
+</p> 
 
 
 ### Data Description
@@ -35,7 +36,7 @@ where
 
 ### Citation
 If you used this code in your research, please cite the following works:
-```bash
+```python
 @article{lyu2024stadnet,
   title={STADNet: Spatial-Temporal Attention-Guided Dual-Path Network for cardiac cine MRI super-resolution},
   author={Lyu, Jun and Wang, Shuo and Tian, Yapeng and Zou, Jing and Dong, Shunjie and Wang, Chengyan and Aviles-Rivero, Angelica I and Qin, Jing},
