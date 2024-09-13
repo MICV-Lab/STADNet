@@ -1,6 +1,10 @@
-<p align="center"> 
-# STADNet: Spatial-Temporal Attention-Guided Dual-Path Network for cardiac cine MRI super-resolution
-</p> 
+# STADNet: Spatial-Temporal Attention-Guided Dual-Path Network for cardiac cine MRI super-resolution (MIA 2024)
+![alt](URL "Fig1")
+
+
+
+The overall architecture of the proposed STADNet network, which consists of two branches, the location-aware spatial path, and the motion-aware temporal path. The location-aware spatial path employs the information of neighboring frames to enhance the spatial details of the current frame. The motion-aware temporal path utilizes an optical flow-based strategy to exploit the correlation between cine MR frames and extract the motion information of the cardiac. We introduce a sliding-window mechanism with a window size of 3 and a stride of 1. Thus, the network’s input is three consecutive frames, 𝑡 − 1, 𝑡, 𝑡 + 1
+
 
 
 ### Data Description
@@ -36,7 +40,7 @@ where
 
 ### Citation
 If you used this code in your research, please cite the following works:
-```python
+```bash
 @article{lyu2024stadnet,
   title={STADNet: Spatial-Temporal Attention-Guided Dual-Path Network for cardiac cine MRI super-resolution},
   author={Lyu, Jun and Wang, Shuo and Tian, Yapeng and Zou, Jing and Dong, Shunjie and Wang, Chengyan and Aviles-Rivero, Angelica I and Qin, Jing},
