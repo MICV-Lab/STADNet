@@ -1,5 +1,5 @@
 # STADNet: Spatial-Temporal Attention-Guided Dual-Path Network for cardiac cine MRI super-resolution (MIA 2024)
-![alt](URL "Fig1")
+![alt](https://github.com/MICV-Lab/STADNet/blob/main/Framework.png "Framework")
 
 
 
