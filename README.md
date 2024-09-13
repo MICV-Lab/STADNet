@@ -1,6 +1,6 @@
-<<<<<<< HEAD
 ### Data Description
-Two in-house private datasets: pelvic and brain and one public dataset: fastMRI are utilized in our experiments. For the private data, all studies have been approved by the local Institutional Review Board (IRB). The IRB asked us to protect the privacy of participants and to maintain the confidentiality of data. Since we cannot make the two datasets publicly available, we won't claim them as our contribution.
+One in-house private dataset: SAX, and one public dataset: ACDC are utilized in our experiments. All studies have been approved by the local Institutional Review Board (IRB) for the private data. The IRB asked us to protect the privacy of participants and to maintain the confidentiality of data. Since we cannot make the  datasets publicly available, we won't claim them as our contribution. 
+
 ### Environment and Dependencies
 Requirements:
 * Python 3.6
@@ -27,10 +27,4 @@ nohup python train_acdc.py > acdc_sr_4x.out 2>&1 &
 where
 `--resume`  trained model. 
 
-nohup python train_new_mask.py > new_mask_0330.out 2>&1 &
 
-nohup python train_brain_4x.py > train_brain_4x.out 2>&1 &
-
-=======
-# STADNet
->>>>>>> dbcbe79ff35ee9d7fdacd65c0dbb12e71dac4463
