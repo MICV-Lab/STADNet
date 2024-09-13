@@ -6,7 +6,7 @@ The overall architecture of the proposed STADNet network, which consists of two 
 
 
 ### Data Description
-Our experiments utilize one in-house private dataset: SAX, and one public dataset: ACDC. All studies have been approved by the local Institutional Review Board (IRB) for the private data. The IRB asked us to protect the privacy of participants and to maintain the confidentiality of data. So we cannot make the private dataset publicly available. 
+Our experiments utilize one in-house private dataset: SAX, and two public datasets: ACDC and CMR×Recon (MICCAI Challenge 2023). All studies have been approved by the local Institutional Review Board (IRB) for the private data. The IRB asked us to protect the privacy of participants and to maintain the confidentiality of data. So we cannot make the private dataset publicly available. 
 
 ### Installation
 ```bash
